@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
  }
 
 .item {
@@ -13,7 +14,13 @@
 .discount {
   background-color: green;
   position: absolute;
-  left: 100%;
-  bottom: 100%;
+  left: 265px;
+  bottom: 358px;
   z-index: 1;
+}
+
+.five {
+  background-color: red;
+  width: 35px;
+
 }
