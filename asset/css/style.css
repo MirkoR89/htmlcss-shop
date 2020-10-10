@@ -26,9 +26,14 @@
 }
 
 .heart {
-  font-size: 35px;
+  display: none;
+  font-size: 30px;
   color: red;
   position: absolute;
-  bottom: 5px;
+  bottom: 10px;
   left: 50%;
+}
+
+img:hover + .heart {
+  display: block;
 }
