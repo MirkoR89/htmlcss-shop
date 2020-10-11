@@ -3,28 +3,38 @@
   box-sizing: border-box;
  }
 
+
+/* Bloks position */
 .item {
   display: inline-block;
   position: relative;
+  bottom: 50%;
   cursor: pointer;
 }
 
-.discount {
+.badge_discount {
   background-color: green;
   position: absolute;
   right: 0;
 }
 
-.five {
+.badge_five {
   background-color: red;
   width: 35px;
 }
 
-.products_line2 {
+.products_line1 {
   position: relative;
-  top:50px;
+  top: 50px;
 }
 
+.products_line2 {
+  position: relative;
+  top:100px;
+}
+/* /Bloks position */
+
+/* Hearts animation */
 .heart {
   display: none;
   font-size: 30px;
@@ -37,3 +47,4 @@
 img:hover + .heart {
   display: block;
 }
+/* /Hearts animation */
